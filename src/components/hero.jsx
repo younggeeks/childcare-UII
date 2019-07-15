@@ -13,12 +13,28 @@ const HeroHeaderDescription = styled.p`
 `
 const HeroTextGroup = styled.div`
   align-self: center;
+
+  @media (max-width: 850px) {
+    text-align: center;
+  }
 `
 
 const HeroImage = styled.div`
   background: url(${props => props.image}) no-repeat right;
-  background-size: contain;
-  background-size: 340px;
+  background-size: 640px;
+
+  @media (max-width: 1400px) {
+    background-size: 500px;
+  }
+  @media (max-width: 1230px) {
+    background-size: 350px;
+  }
+  @media (max-width: 990px) {
+    background-size: 250px;
+  }
+  @media (max-width: 850px) {
+    display: none;
+  }
 `
 
 const Hero = () => {

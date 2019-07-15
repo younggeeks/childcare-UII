@@ -4,4 +4,8 @@
   grid-gap: 30px;
   height: 500px;
   //   align-items: center;
+
+  @media (max-width: 850px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const LayoutContainer = styled.div`
-  width: 960px;
+  width: 76%;
   margin: 0 auto;
 `
 

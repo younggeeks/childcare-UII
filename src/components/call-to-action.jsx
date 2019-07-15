@@ -30,7 +30,7 @@ const CTAHeader = styled.h1`
 `
 
 const CTAContents = styled.div`
-  width: 960px;
+  width: 76%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
