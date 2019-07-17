@@ -1,0 +1,35 @@
+.mc-Container {
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-gap: 150px;
+  height: 500px;
+  //   align-items: center;
+
+  @media (max-width: 850px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.mc-content {
+  align-self: center;
+
+  @media (max-width: 850px) {
+    text-align: center;
+  }
+}
+
+.mc-header {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.mc-sub-header{
+  font-size: 300%;
+  font-weight: 800;
+}
+
+.mc-description{
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
