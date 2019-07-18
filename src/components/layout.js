@@ -15,6 +15,7 @@ import LayoutContainer from "./layout-container.jsx"
 import MotherChild from './MotherChild';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
+import Cards from './cards/Card';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,6 +33,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
       <MotherChild/>
+    <Cards />
+
 
       <footer>
         <p>
