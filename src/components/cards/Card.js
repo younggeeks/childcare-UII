@@ -55,6 +55,12 @@ const Cards = () => {
             </PrimaryBtn>
           </div>
         </div>
+        <div className='cards__bars'>
+            <div className='cards__bar-1 background-gradient'></div>
+            <div className='cards__bar-2 background-gradient'></div>
+            <div className='cards__bar-3 background-gradient'></div>
+
+        </div>
       </div>
     </Fragment>
   )
