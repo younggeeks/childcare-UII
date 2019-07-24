@@ -1,6 +1,9 @@
 import React, { Fragment } from "react"
 import PrimaryBtn from "../Button"
 import styled from "styled-components"
+import childImage from "../../images/baby-boy.svg"
+import volunteersImage from "../../images/volunters.svg"
+import handImage from "../../images/helping-hand.svg"
 
 import "./cards.scss"
 
@@ -11,7 +14,7 @@ const Cards = () => {
         <div className="cards__container">
           <div className="cards__card">
             <div className="cards__icon">
-              <div className="cards__donations-image"></div>
+              <img className="cards__image" src={handImage} alt="" />
             </div>
             <div className="cards__title">Send Donation</div>
             <div className="cards__description">
@@ -27,7 +30,7 @@ const Cards = () => {
           {/*  */}
           <div className="cards__card">
             <div className="cards__icon">
-              <div className="cards__child-image"></div>
+              <img className="cards__image" src={childImage} alt="" />
             </div>
             <div className="cards__title">Save The Child</div>
             <div className="cards__description">
@@ -43,7 +46,7 @@ const Cards = () => {
           {/*  */}
           <div className="cards__card">
             <div className="cards__icon">
-              <div className="cards__volunteer-image"></div>
+              <img className="cards__image" src={volunteersImage} alt="" />
             </div>
             <div className="cards__title">Become Volunteer</div>
             <div className="cards__description">
@@ -55,11 +58,10 @@ const Cards = () => {
             </PrimaryBtn>
           </div>
         </div>
-        <div className='cards__bars'>
-            <div className='cards__bar-1 background-gradient'></div>
-            <div className='cards__bar-2 background-gradient'></div>
-            <div className='cards__bar-3 background-gradient'></div>
-
+        <div className="cards__bars">
+          <div className="cards__bar-1 background-gradient"></div>
+          <div className="cards__bar-2 background-gradient"></div>
+          <div className="cards__bar-3 background-gradient"></div>
         </div>
       </div>
     </Fragment>
