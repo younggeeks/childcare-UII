@@ -1,8 +1,13 @@
-import PrimaryBtn from "../Button"
 import React from "react"
 
-import pic from "../../images/tst.jpg"
+import NewsSectionCard from "./NewsSectionCard"
+import PrimaryBtn from "../Button"
+import children from "../../images/children.png"
+import girl from '../../images/girl.png'
+import worried from '../../images/worried.png'
+
 import "./newsSection.scss"
+
 
 const NewsSection = () => {
   return (
@@ -13,17 +18,25 @@ const NewsSection = () => {
       <div className="news-section__title">Here is our latest news</div>
 
       {/* cards */}
-      <div className="news-section__card">
-        <img className="news-section__image" src={pic} alt="" />
-        <div className="news-section__card-container">
-          <div className="news-section__title2">
-            The best <br /> apps to your next trip
-          </div>
-          <div className="news-section__description">
-            Contraly to popular belief, Lorem Ipsum is not simply
-          </div>
-          <PrimaryBtn padding={19}>Learn More</PrimaryBtn>
-        </div>
+      <div className="news-section__cards">
+        <NewsSectionCard
+          image={children}
+          title1="The best"
+          title2="apps to your next trip"
+        />
+        <NewsSectionCard
+          image={girl}
+          title1="Highlights but"
+          title2="I must explain to you"
+        />
+        <NewsSectionCard
+          image={worried}
+          title1="On the"
+          title2="other hand"
+        />
+      </div>
+      <div className="news-section__view-all">
+          <PrimaryBtn padding={19} className="news-section__btn-width">View all</PrimaryBtn>
       </div>
     </div>
   )
