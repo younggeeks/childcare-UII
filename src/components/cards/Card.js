@@ -1,9 +1,8 @@
 import React, { Fragment } from "react"
 import PrimaryBtn from "../Button"
-import styled from "styled-components"
 import childImage from "../../images/baby-boy.svg"
-import volunteersImage from "../../images/volunters.svg"
-import handImage from "../../images/helping-hand.svg"
+import volunteersImage from "../../images/volunteers.svg"
+import handImage from "../../images/donation.svg"
 
 import "./cards.scss"
 
