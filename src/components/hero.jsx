@@ -6,6 +6,7 @@ import PrimaryBtn from "./Button"
 const HeroHeaderText = styled.h1`
   font-size: 300%;
   font-weight: 800;
+  color: #16344d;
 `
 const HeroHeaderDescription = styled.p`
   color: rgba(0, 0, 0, 0.7);
