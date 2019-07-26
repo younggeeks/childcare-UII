@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
       <Cards />
       <NewsSection />
 
+
       <footer>
         <p>
           Created with <FontAwesomeIcon icon={faHeart} color={"#c54874"} /> By
