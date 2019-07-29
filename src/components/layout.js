@@ -12,11 +12,10 @@ import styled from "styled-components"
 import Header from "./header.jsx"
 import "./layout.css"
 import LayoutContainer from "./layout-container.jsx"
-import MotherChild from "./MotherChild"
+import MotherChild from './MotherChild';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
-import Cards from "./cards/Card"
-import NewsSection from "./newsSection/NewsSection";
+import Cards from './cards/Card';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,9 +32,8 @@ const Layout = ({ children }) => {
     <LayoutContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-      <MotherChild />
-      <Cards />
-      <NewsSection />
+      <MotherChild/>
+    <Cards />
 
 
       <footer>
