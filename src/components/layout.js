@@ -16,6 +16,7 @@ import MotherChild from "./MotherChild"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
 import Cards from "./cards/Card"
+import NewsSection from "./newsSection/NewsSection";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <MotherChild />
       <Cards />
+      <NewsSection />
 
       <footer>
         <p>
