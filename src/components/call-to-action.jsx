@@ -43,7 +43,7 @@ const CallToAction = () => {
       <CTAContents>
         <div className="cta-text">
           <CTAHeader>
-            Together To <br />
+            Together To <br /> 
             Help The World Better
           </CTAHeader>
           <CTAText>please help us change lives arouond the world.</CTAText>
