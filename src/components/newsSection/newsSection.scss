@@ -1,0 +1,112 @@
+.news-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    &__blog {
+        display: flex;
+        color: rgba(138, 136, 139, 1);
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        align-items: center;
+
+    }
+
+    &__blog-bar {
+        display: flex;
+        background: #ee4869c9;
+        width: 120px;
+        height: 2px;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    &__title {
+        display: flex;
+        color: rgba(22, 52, 77, 1);
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    &__card {
+        width: 31%;
+    }
+
+    &__card-container {
+        width: 100%;
+        height: 280px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__image {
+        width: 100%;
+        height: 200px;
+    }
+
+    &__title2 {
+        display: flex;
+        color: rgba(22, 52, 77, 1);
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        display: flex;
+        color: rgba(138, 136, 139, 1);
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__btn-width {
+        width: 150px;
+    }
+
+    &__date-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    &__date {
+        display: flex;
+        height: 20px;
+        width: 55px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 12px;
+        align-items: center;
+        font-weight: bold;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    &__share-image {
+        display: flex;
+        height: 20px;
+        width: 20px;
+    }
+
+    &__padding {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 35px 20px 30px;
+    }
+
+    &__view-all {
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+}
