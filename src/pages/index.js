@@ -7,6 +7,7 @@ import MotherChild from "../components/MotherChild"
 import Cards from "../components/cards/Card"
 import NewsSection from "../components/newsSection/NewsSection";
 import ManagementSection from '../components/managementSection/ManagementSection';
+import Donation from '../components/donation/donation.component'
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Cards />
     <ManagementSection />
     <NewsSection />
+    <Donation />
   </Layout>
 )
 
