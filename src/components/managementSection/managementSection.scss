@@ -1,0 +1,136 @@
+.management {
+  display: flex;
+
+  &__section {
+    display: flex;
+    height: 800px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    background: url("../../images/juunachini.svg") no-repeat center;
+    margin-bottom: 80px;
+  }
+
+  &__content {
+    display: flex;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+  }
+
+  &__ascii {
+    color: #fff;
+    font-size: 140px;
+    position: absolute;
+    left: 35px;
+    top: 285px;
+  }
+
+  &__top {
+    display: flex;
+  }
+
+  &__info {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 35px;
+
+  }
+
+  &__say {
+    font-size: 30px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 12px;
+  }
+
+  &__ceo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__ceo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    width: 150px;
+  }
+
+  &__ceo-img-container {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__ceo-img {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: black;
+  }
+
+  &__ceo-img-bg {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: black;
+  }
+
+  &__ceo-info {
+    display: flex;
+    margin-left: 6px;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+  }
+
+  &__ceo-title {
+    display: flex;
+    display: flex;
+    font-weight: 400;
+    font-size: small;
+  }
+
+  &__icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+  }
+
+  &__horizontal {
+    display: flex;
+    background: #fff;
+    width: 50px;
+    height: 2px;
+    border-radius: 5px;
+  }
+}

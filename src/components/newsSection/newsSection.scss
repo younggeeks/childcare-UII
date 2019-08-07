@@ -27,13 +27,14 @@
         color: rgba(22, 52, 77, 1);
         font-weight: bold;
         font-size: 30px;
+        padding-bottom: 12px;
     }
 
     &__cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
     &__card {
