@@ -3,7 +3,7 @@ import styled from "styled-components"
 import LayoutContainer from "./layout-container"
 import CircleButton from "./circle-button"
 
-const CTAGroup = styled.div`
+export const CTAGroup = styled.div`
   width: 100vw;
   position: relative;
   left: 50%;
@@ -23,7 +23,7 @@ const CTAText = styled.p`
   font-weight: 500;
 `
 
-const CTAHeader = styled.h1`
+export const CTAHeader = styled.h1`
   font-size: 300%;
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ const CallToAction = () => {
       <CTAContents>
         <div className="cta-text">
           <CTAHeader>
-            Together To <br />
+            Together To <br /> 
             Help The World Better
           </CTAHeader>
           <CTAText>please help us change lives arouond the world.</CTAText>

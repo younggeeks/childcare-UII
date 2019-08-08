@@ -1,0 +1,15 @@
+.donation {
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,24 @@
+.team {
+  &__container {
+    display: grid;
+    grid-template-columns: 420px 450px;
+    height: 300px;
+    grid-gap: 70px;
+  }
+
+  &__img {
+      background: url(../../images/team.svg) no-repeat center;
+      background-size: 450px;
+  }
+  &__email {
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: 2px solid #cccccc2b;
+    width: 55%;
+  }
+
+  &__btn {
+      height: 48px;
+      width: 20%;
+  }
+}

@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
     <LayoutContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
+<<<<<<< HEAD
       <MotherChild/>
       <LatestCampaign />
 
@@ -41,6 +42,8 @@ const Layout = ({ children }) => {
           Wajomba ©
         </p>
       </footer>
+=======
+>>>>>>> develop
     </LayoutContainer>
   )
 }
