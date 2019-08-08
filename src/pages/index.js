@@ -5,9 +5,10 @@ import Hero from "../components/hero"
 import CallToAction from "../components/call-to-action"
 import MotherChild from "../components/MotherChild"
 import Cards from "../components/cards/Card"
-import NewsSection from "../components/newsSection/NewsSection";
-import ManagementSection from '../components/managementSection/ManagementSection';
-import Donation from '../components/donation/donation.component'
+import NewsSection from "../components/newsSection/NewsSection"
+import ManagementSection from "../components/managementSection/ManagementSection"
+import Donation from "../components/donation/donation.component"
+import Footer from "../components/Footer/footer.component"
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <ManagementSection />
     <NewsSection />
     <Donation />
+    <Footer />
   </Layout>
 )
 

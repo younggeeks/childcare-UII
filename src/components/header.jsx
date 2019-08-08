@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
 
-    <div className="header header__bottom">
+    <div className="header__bottom">
       <ul>
         <li>
           <Link to="/">Home</Link>
