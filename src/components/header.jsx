@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
 
-    <div className="header header__bottom">
+    <div className="header__bottom">
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -60,7 +60,7 @@ const Header = ({ siteTitle }) => (
           <Link to="/">Contact</Link>
         </li>
       </ul>
-      <PrimaryBtn padding={13}>Cancel</PrimaryBtn>
+      <PrimaryBtn padding={13}>Donate</PrimaryBtn>
     </div>
   </header>
 )
