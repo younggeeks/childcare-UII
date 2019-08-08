@@ -60,7 +60,7 @@ const Header = ({ siteTitle }) => (
           <Link to="/">Contact</Link>
         </li>
       </ul>
-      <PrimaryBtn padding={13}>Cancel</PrimaryBtn>
+      <PrimaryBtn padding={13}>Donate</PrimaryBtn>
     </div>
   </header>
 )
