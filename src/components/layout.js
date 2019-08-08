@@ -12,8 +12,6 @@ import styled from "styled-components"
 import Header from "./header.jsx"
 import "./layout.css"
 import LayoutContainer from "./layout-container.jsx"
-import LatestCampaign from './LatestCampaign'
-import MotherChild from './MotherChild';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
 
@@ -32,9 +30,7 @@ const Layout = ({ children }) => {
     <LayoutContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-<<<<<<< HEAD
-      <MotherChild/>
-      <LatestCampaign />
+
 
       <footer>
         <p>
@@ -42,8 +38,6 @@ const Layout = ({ children }) => {
           Wajomba ©
         </p>
       </footer>
-=======
->>>>>>> develop
     </LayoutContainer>
   )
 }
