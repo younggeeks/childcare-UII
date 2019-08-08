@@ -1,0 +1,32 @@
+.lc-list {
+  // border: 1px solid #d3d3d3;
+  height: 99%;
+}
+
+.li-card-grid {
+  display: grid;
+  // grid-template-columns: 150px 200px;
+  grid-template-columns: 1fr 2fr;
+  padding: 15px;
+  margin-bottom: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.li-text-header {
+  width: 50%;
+  font-weight: 800;
+  font-size: 150%;
+  color: #0d2e63;
+}
+.li-text-content {
+  width: 80%;
+  padding-top: 10px;
+  color: #6d6e70;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.li-selected {
+  background-color: rgba(167, 30, 160, 1);
+  color: white;
+  stroke: white;
+}

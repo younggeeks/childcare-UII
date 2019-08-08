@@ -1,0 +1,84 @@
+.card {
+  // border: 1px solid #d3d3d3;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  height: 99.3%;
+}
+
+.bg-img {
+  background-size: cover;
+  min-height: 236px;
+  background-position: center;
+  background-image: url("../images/soldier.jpg");
+}
+
+.grid-content {
+  padding: 14px 20px 14px 20px;
+}
+.image-content {
+  padding: 0px;
+}
+
+.grid-donation {
+  display: grid;
+  height: 90px;
+  grid-gap: 30px;
+  align-items: center;
+  border-bottom: 1px solid #dadce3;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    .item {
+      justify-self: center;
+      .text {
+        color: #6d6e70;
+      }
+      .amount {
+        padding-top: 10px;
+        color: #f16a85;
+      }
+      .btn-donate {
+        padding: 15px 38px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+    .middle-item {
+      width: 100%;
+      text-align: center;
+      justify-self: center;
+      border-right: 1px solid #dadce3;
+      border-left: 1px solid #dadce3;
+    }
+    .left-item {
+      text-align: left;
+      justify-self: left;
+    }
+  }
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 15px 15px, 0px 15px;
+  margin-bottom: 3px;
+}
+.grid-item__text__header {
+  width: 60%;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 150%;
+  color: #0d2e63;
+}
+.grid-item__text__content {
+  width: 90%;
+  padding-top: 20px;
+  color: #6d6e70;
+  font-size: 15px;
+  font-weight: 400;
+}
+.grid-item__percentage{
+  justify-self: center;
+}
