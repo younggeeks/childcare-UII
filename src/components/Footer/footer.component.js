@@ -11,20 +11,20 @@ const Footer = () => {
         <div className="footer__content">
           <span className="footer__content-header">Childcare</span>
           <div className="footer__address">
-            <span>9000 Regency Parkway, Suite 400 Cary, NC 27518</span>
-            <span>E: wajomba@gmail.com</span>
-            <span>P: +254 0987654321</span>
+            <span>Githurai 45, Nairobi</span>
+            <span>wajomba@gmail.com</span>
+            <span>+254 0987654321</span>
           </div>
         </div>
       </div>
 
       <div className="footer__container-bottom">
         <div className="footer__bottom">
-          <div className='footer__stamp'>
+          <div className="footer__stamp">
             Created with <FontAwesomeIcon icon={faHeart} color={"#c54874"} /> By
             Wajomba ©. All Rights Reserved
           </div>
-          <div className='footer__links'>
+          <div className="footer__links">
             <ul>
               <li>
                 <Link to="/">Home</Link>
