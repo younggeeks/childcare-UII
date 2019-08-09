@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import LayoutContainer from "./layout-container"
 import CircleButton from "./circle-button"
 
 export const CTAGroup = styled.div`

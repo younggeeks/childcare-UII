@@ -2,7 +2,6 @@ import React from "react"
 
 import Button from "./Button"
 import ProgressCircle from "./ProgressCircle"
-import ListItem from "./ListItem"
 
 import "./card.scss"
 

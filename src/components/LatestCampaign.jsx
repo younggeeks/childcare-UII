@@ -1,30 +1,10 @@
 import React from "react"
 
-import styled from "styled-components"
-import PrimaryBtn from "./Button"
 import Card from "./Card"
 import ListItem from "./ListItem"
 import Button from './Button'
 
 import "./latest-campaign.scss"
-
-const LCimage = styled.div`
-  background: url(${props => props.image}) no-repeat right;
-  background-size: 401px;
-
-  @media (max-width: 1400px) {
-    background-size: 500px;
-  }
-  @media (max-width: 1230px) {
-    background-size: 350px;
-  }
-  @media (max-width: 990px) {
-    background-size: 250px;
-  }
-  @media (max-width: 850px) {
-    display: none;
-  }
-`
 
 export default class LatestCampaign extends React.Component {
   render() {

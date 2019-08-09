@@ -1,6 +1,6 @@
 .card {
   // border: 1px solid #d3d3d3;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px #e6e7eb;
   height: 99.3%;
 }
 
@@ -23,7 +23,7 @@
   height: 90px;
   grid-gap: 30px;
   align-items: center;
-  border-bottom: 1px solid #dadce3;
+  border-bottom: 1px solid #f5f6fa;
 
   &__item {
     display: grid;
@@ -49,8 +49,8 @@
       width: 100%;
       text-align: center;
       justify-self: center;
-      border-right: 1px solid #dadce3;
-      border-left: 1px solid #dadce3;
+      border-right: 1px solid #f5f6fa;
+      border-left: 1px solid #f5f6fa;
     }
     .left-item {
       text-align: left;
