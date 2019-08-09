@@ -1,15 +1,30 @@
 .team {
   &__container {
     display: grid;
-    grid-template-columns: 420px 450px;
-    height: 300px;
-    grid-gap: 70px;
+    grid-template-columns: 367px 425px;
+    height: 330px;
+    grid-gap: 80px;
   }
 
   &__img {
-      background: url(../../images/team.svg) no-repeat center;
-      background-size: 450px;
+    background: url(../../images/team.svg) no-repeat center;
+    background-size: 415px;
   }
+
+  @media only screen and (min-width: 1440px) {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      height: 330px;
+      grid-gap: 120px;
+    }
+
+    &__img {
+      background: url(../../images/team.svg) no-repeat right;
+      background-size: 500px;
+    }
+  }
+
   &__email {
     border-radius: 5px;
     padding: 15px 20px;
@@ -18,7 +33,7 @@
   }
 
   &__btn {
-      height: 48px;
-      width: 20%;
+    height: 48px;
+    width: 20%;
   }
 }

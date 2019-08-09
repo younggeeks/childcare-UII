@@ -9,6 +9,7 @@ import NewsSection from "../components/newsSection/NewsSection"
 import ManagementSection from "../components/managementSection/ManagementSection"
 import Donation from "../components/donation/donation.component"
 import Footer from "../components/Footer/footer.component"
+import LatestCampaign from '../components/LatestCampaign';
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <CallToAction />
     <MotherChild />
     <Cards />
+    <LatestCampaign/>
     <ManagementSection />
     <NewsSection />
     <Donation />

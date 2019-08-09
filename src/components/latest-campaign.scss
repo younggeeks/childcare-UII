@@ -1,0 +1,43 @@
+.latest-campaign-content {
+  padding-bottom: 50px;
+  .lc-header {
+    display: flex;
+    color: #8a888b;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    align-items: center;
+    .news-section__blog-bar {
+      display: flex;
+      background: rgba(238, 72, 105, 0.79);
+      width: 120px;
+      height: 2px;
+      border-radius: 5px;
+      margin-left: 15px;
+    }
+  }
+  .lc-title {
+    display: flex;
+    color: #16344d;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+  .viewAll {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    .btn-view-all {
+      padding: 20px 40px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+    }
+  }
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 20px;
+}
