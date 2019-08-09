@@ -29,14 +29,6 @@ const Layout = ({ children }) => {
     <LayoutContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-
-
-      <footer>
-        <p>
-          Created with <FontAwesomeIcon icon={faHeart} color={"#c54874"} /> By
-          Wajomba ©
-        </p>
-      </footer>
     </LayoutContainer>
   )
 }
